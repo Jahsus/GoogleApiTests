@@ -1,8 +1,5 @@
 package ivi.tests.models;
 
-import com.sun.xml.internal.bind.v2.TODO;
-
-import java.sql.Types;
 import java.util.Arrays;
 
 /**
@@ -16,7 +13,7 @@ public class Result {
     public String name;
     public OpeningHours opening_hours;
     public Photo[] photos;
-    // public Types[] types;
+    public String[] types;
     public String place_id;
     public int price_level;
     public float rating;
@@ -36,7 +33,7 @@ public class Result {
                 ", name='" + name + '\'' +
                 ", opening_hours=" + opening_hours +
                 ", photos=" + Arrays.toString(photos) +
-               // ", types=" + Arrays.toString(types) +
+                ", types=" + Arrays.toString(types) +
                 ", place_id='" + place_id + '\'' +
                 ", price_level=" + price_level +
                 ", rating=" + rating +

@@ -12,12 +12,19 @@ public class NearbyResponse {
 
     @SerializedName("results")
     public Result [] mResults;
+    @SerializedName("status")
+    public String mStatus;
+    @SerializedName("next_page_token")
+    public String mToken;
 
     @Override
     public String toString() {
         return "NearbyResponse{" +
                 "mResults=" + Arrays.toString(mResults) +
+                ", mStatus='" + mStatus + '\'' +
+                ", mToken='" + mToken + '\'' +
                 '}';
     }
+
 
 }
