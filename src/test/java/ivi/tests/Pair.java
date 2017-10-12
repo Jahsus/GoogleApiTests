@@ -1,4 +1,5 @@
 package ivi.tests;
+
 public class Pair {
 
     private final String mName;
@@ -9,8 +10,13 @@ public class Pair {
         this.mValue = value;
     }
 
-    public String getName() { return mName; }
-    public String getValue() { return mValue; }
-    
+    public String getName() {
+        return mName;
+    }
+
+    public String getValue() {
+        return mValue;
+    }
+
 
 }

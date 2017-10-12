@@ -11,7 +11,7 @@ public class NearbyResponse {
 
 
     @SerializedName("results")
-    public Result [] mResults;
+    public Result[] mResults;
     @SerializedName("status")
     public String mStatus;
     @SerializedName("next_page_token")
